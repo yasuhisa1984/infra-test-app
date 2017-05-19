@@ -19,6 +19,13 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'unicorn'
 
+gem 'devise'
+
+gem 'carrierwave'
+gem 'rmagick'
+gem 'fog'
+
+
 group :development, :test do
   gem 'byebug', platform: :mri
 end
