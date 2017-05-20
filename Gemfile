@@ -21,7 +21,7 @@ gem 'unicorn'
 
 gem 'devise'
 
-gem 'carrierwave'
+gem 'carrierwave', '~> 1.0'
 gem 'rmagick'
 gem 'fog-aws'
 
