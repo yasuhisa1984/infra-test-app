@@ -25,6 +25,7 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'fog-aws'
 
+gem 'dotenv-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
