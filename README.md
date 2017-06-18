@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 主な機能
 
-Things you may want to cover:
+- ログイン
+- 画像アップロード (S3)
+- DBアクセス
 
-* Ruby version
+## 利用に際して
 
-* System dependencies
+### 依存パッケージ
 
-* Configuration
+以下、パッケージがインストールされていない場合、インストールしてください。
 
-* Database creation
+- ImageMagick
+- ImageMagick-devel
+- nodejs
 
-* Database initialization
+### 環境変数
 
-* How to run the test suite
+`.env` ファイルを作成し、変数を設定してください。
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- AWS_ACCESS_KEY_ID: AWSのアクセスキー ID
+- AWS_SECRET_ACCSESS_KEY: AWSのシークレットアクセスキー
+- BUCKET_NAME: S3のバケット名
