@@ -1,4 +1,13 @@
 # server-based syntax
+# 環境名
+set :stage, :production
+
+# RAILS_ENVに設定する値
+set :rails_env, :production
+
+role :app, %w{ app@app1.cyber-mouse.site }
+role :web, %w{ app@app1.cyber-mouse.site }
+role :db,  %w{ app@app1.cyber-mouse.site }
 # ======================
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:

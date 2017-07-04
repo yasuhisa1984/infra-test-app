@@ -29,6 +29,11 @@ gem 'dotenv-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-bundler'
+  gem 'capistrano3-unicorn'
+  gem 'capistrano-rbenv'
 end
 
 group :development do
